@@ -1,0 +1,454 @@
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat verify --network bsctestnet 0x84cD921CbF68c5DA34aAcfa34A974f44028937b5
+Nothing to compile
+Error in plugin @nomiclabs/hardhat-etherscan: The constructor for contracts/online clinic dapp.sol:clinic has 2 parameters
+but 0 arguments were provided instead.
+
+For more info run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat verify --network bsctestnet 0x84cD921CbF68c5DA34aAcfa34A974f44028937b5 "0xF970Cb2a147f47091A910FB6FDdBa80c8A69BEe1", "wewwe"
+Nothing to compile
+contracts/online clinic dapp.sol:15:24: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function addRecord(string memory _record) public {
+                       ^-------------------^
+
+contracts/online clinic dapp.sol:15:5: Warning: Function state mutability can be restricted to view
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+Successfully submitted source code for contract
+contracts/online clinic dapp.sol:clinic at 0x84cD921CbF68c5DA34aAcfa34A974f44028937b5
+for verification on the block explorer. Waiting for verification result...
+
+We tried verifying your contract clinic without including any unrelated one, but it failed.
+Trying again with the full solc input used to compile and deploy it.
+This means that unrelated contracts may be displayed on Etherscan...
+
+Successfully submitted source code for contract
+contracts/online clinic dapp.sol:clinic at 0x84cD921CbF68c5DA34aAcfa34A974f44028937b5
+for verification on the block explorer. Waiting for verification result...
+
+Error in plugin @nomiclabs/hardhat-etherscan: The contract verification failed.
+Reason: Fail - Unable to verify
+
+For more info run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat verify --network bsctestnet 0x84cD921CbF68c5DA34aAcfa34A974f44028937b5 "0xF970Cb2a147f47091A910FB6FDdBa80c8A69BEe1", "wewwe"
+Nothing to compile
+contracts/online clinic dapp.sol:15:24: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function addRecord(string memory _record) public {
+                       ^-------------------^
+
+contracts/online clinic dapp.sol:15:5: Warning: Function state mutability can be restricted to view
+    function addRecord(string memory _record) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+Successfully submitted source code for contract
+contracts/online clinic dapp.sol:clinic at 0x84cD921CbF68c5DA34aAcfa34A974f44028937b5
+for verification on the block explorer. Waiting for verification result...
+
+We tried verifying your contract clinic without including any unrelated one, but it failed.
+Trying again with the full solc input used to compile and deploy it.
+This means that unrelated contracts may be displayed on Etherscan...
+
+Successfully submitted source code for contract
+contracts/online clinic dapp.sol:clinic at 0x84cD921CbF68c5DA34aAcfa34A974f44028937b5
+for verification on the block explorer. Waiting for verification result...
+
+Error in plugin @nomiclabs/hardhat-etherscan: The contract verification failed.
+Reason: Fail - Unable to verify
+
+For more info run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat run --network bsctestnet deploy.js
+Rooted Token deployed to: 0xAdA3437fa3b37Bc0D90Afe82fEe2672EA77f30Bb
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat verify --network bsctestnet 0xAdA3437fa3b37Bc0D90Afe82fEe2672EA77f30Bb  "0xF970Cb2a147f47091A910FB6FDdBa80c8A69BEe1", "wewwe"
+Nothing to compile
+contracts/online clinic dapp.sol:15:24: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function addRecord(string memory _record) public {
+                       ^-------------------^
+
+contracts/online clinic dapp.sol:15:5: Warning: Function state mutability can be restricted to view
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+Successfully submitted source code for contract
+contracts/online clinic dapp.sol:clinic at 0xAdA3437fa3b37Bc0D90Afe82fEe2672EA77f30Bb
+for verification on the block explorer. Waiting for verification result...
+
+We tried verifying your contract clinic without including any unrelated one, but it failed.
+Trying again with the full solc input used to compile and deploy it.
+This means that unrelated contracts may be displayed on Etherscan...
+
+Successfully submitted source code for contract
+contracts/online clinic dapp.sol:clinic at 0xAdA3437fa3b37Bc0D90Afe82fEe2672EA77f30Bb
+for verification on the block explorer. Waiting for verification result...
+
+Error in plugin @nomiclabs/hardhat-etherscan: The contract verification failed.
+Reason: Fail - Unable to verify
+
+For more info run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat verify --network bsctestnet 0xAdA3437fa3b37Bc0D90Afe82fEe2672EA77f30Bb  "0xF970Cb2a147f47091A910FB6FDdBa80c8A69BEe1", "43434"
+Nothing to compile
+contracts/online clinic dapp.sol:15:24: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function addRecord(string memory _record) public {
+                       ^-------------------^
+
+contracts/online clinic dapp.sol:15:5: Warning: Function state mutability can be restricted to view
+    function addRecord(string memory _record) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+Successfully submitted source code for contract
+contracts/online clinic dapp.sol:clinic at 0xAdA3437fa3b37Bc0D90Afe82fEe2672EA77f30Bb
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract clinic on Etherscan.
+https://testnet.bscscan.com/address/0xAdA3437fa3b37Bc0D90Afe82fEe2672EA77f30Bb#code
+
+
+
+//3/1/2023 New 3 smart contracts Successfully verify in Binance smart chain. ////
+
+
+///New one smart contracts create it Successfully ///
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat verify --network bsctestnet 0xB09C30cc20c42E40a5ff3671e38e563Ea9DC6b35  "sdfsf", "sdfsf", "sdfsf", "sdfsf", "sdfsf", "sdfsf", "sdfsf", "sdfsf", "sdfsf"
+contracts/access control.sol: Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.6.6;"
+
+contracts/patient12.sol: Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.6.6;"
+
+contracts/UIT.SOL.sol: Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.6.6;"
+
+contracts/online clinic dapp.sol:15:24: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function addRecord(string memory _record) public {
+                       ^-------------------^
+
+contracts/online clinic dapp.sol:15:5: Warning: Function state mutability can be restricted to view
+    function addRecord(string memory _record) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+contracts/patient.sol:209:5: Warning: This declaration shadows an existing declaration.
+    struct Patient {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/patient.sol:6:1: The shadowed declaration is here:
+contract Patient {
+^ (Relevant source part starts here and spans across multiple lines).
+
+Compiled 6 Solidity files successfully
+contracts/patient.sol:209:5: Warning: This declaration shadows an existing declaration.
+    struct Patient {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/patient.sol:6:1: The shadowed declaration is here:
+contract Patient {
+^ (Relevant source part starts here and spans across multiple lines).
+
+Successfully submitted source code for contract
+contracts/patient.sol:Patient at 0xB09C30cc20c42E40a5ff3671e38e563Ea9DC6b35
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract Patient on Etherscan.
+https://testnet.bscscan.com/address/0xB09C30cc20c42E40a5ff3671e38e563Ea9DC6b35#code
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  
+
+
+
+////4/1/2023////
+PatientData smart contracts verify successfully
+
+Compiled 1 Solidity file successfully
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+HardhatError: HH110: Invalid JSON-RPC response received: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+    at parseJsonResponse (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\util\jsonrpc.ts:47:11)
+    at HttpProvider._fetchJsonRpcResponse (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\core\providers\http.ts:206:31)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HttpProvider.request (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\core\providers\http.ts:84:29)
+    at EthersProviderWrapper.send (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@nomiclabs\hardhat-ethers\src\internal\ethers-provider-wrapper.ts:13:20)
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+Rooted Token deployed to: 0x81a2e4eC7eE56a0B7E47b989E4b37Ee749eCE620
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>  npx hardhat verify --network bsctestnet 0x81a2e4eC7eE56a0B7E47b989E4b37Ee749eCE620                       
+Nothing to compile                                        
+Successfully submitted source code for contract
+contracts/patientData.sol:PatientData at 0x81a2e4eC7eE56a0B7E47b989E4b37Ee749eCE620
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract PatientData on Etherscan.
+https://testnet.bscscan.com/address/0x81a2e4eC7eE56a0B7E47b989E4b37Ee749eCE620#code
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> 
+
+
+
+////// 3/4/2023/// NFT Collection smart contract. veriy done successfully
+
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/patientData.sol
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+
+
+HardhatError: HH700: Artifact for contract "Sohail" not found.
+    at Artifacts._handleWrongArtifactForContractName (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:702:11)
+    at Artifacts._getArtifactPathFromFiles (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:827:19)
+    at Artifacts._getArtifactPath (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:507:21)
+    at Artifacts.readArtifact (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:71:26)
+    at getContractFactory (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@nomiclabs\hardhat-ethers\src\internal\helpers.ts:99:22)
+    at main (C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts\deploy.js:18:25)
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Rooted Token deployed to: 0x66827686D327CC3d3e73193B3698b75aaB0A120f
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat verify --network bsctestnet 0x66827686D327CC3d3e73193B3698b75aaB0A120f
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Nothing to compile
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/patientData.sol
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Successfully submitted source code for contract
+contracts/patientData.sol:Collection at 0x66827686D327CC3d3e73193B3698b75aaB0A120f
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract Collection on Etherscan.
+https://testnet.bscscan.com/address/0x66827686D327CC3d3e73193B3698b75aaB0A120f#code
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts>
+
+
+
+////////5/04/2023/////
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Rooted Token deployed to: 0xdB9A7ffc00caf86A005A91ef967f1aeef36EBF93
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat verify --network bsctestnet 0xdB9A7ffc00caf86A005A91ef967f1aeef36EBF93
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Nothing to compile
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/patientData.sol
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Successfully submitted source code for contract
+contracts/patientData.sol:Collection at 0xdB9A7ffc00caf86A005A91ef967f1aeef36EBF93
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract Collection on Etherscan.
+https://testnet.bscscan.com/address/0xdB9A7ffc00caf86A005A91ef967f1aeef36EBF93#code
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> 
+
+
+/////7/03/2023///
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/NFT Collection.sol
+
+
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/NFT marketplaceSell.sol
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.4;"
+--> contracts/nft Rolites.sol
+
+
+DeclarationError: Identifier not found or not unique.
+  --> contracts/ERC1155.sol:13:40:
+   |
+13 | contract ERC1155Full is ERC1155Supply, ERC1155Mintable, ERC1155MetadataMintable,ERC1155Metadata {
+   |                                        ^^^^^^^^^^^^^^^
+
+
+Error HH600: Compilation failed
+
+For more info go to https://hardhat.org/HH600 or run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/NFT Collection.sol
+
+
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/NFT marketplaceSell.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.4;"
+--> contracts/ERC1155.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.4;"
+--> contracts/INoyz.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.4;"
+--> contracts/NFT marketplaceSell.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.4;"
+--> contracts/nft Rolites.sol
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Compiled 22 Solidity files successfully
+Rooted Token deployed to: 0x89E99a15B67E0BACc8dB658C35AFe4639DdF8005
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat verify --network bsctestnet 0x89E99a15B67E0BACc8dB658C35AFe4639DdF8005
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Nothing to compile
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:200:30:
+    |
+200 |     ) internal view returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.
+   --> @openzeppelin/contracts/utils/Address.sol:223:30:
+    |
+223 |     ) internal pure returns (bytes memory) {
+    |                              ^^^^^^^^^^^^
+
+
+Successfully submitted source code for contract
+contracts/NFTMarketplace.sol:NFTMarketplace at 0x89E99a15B67E0BACc8dB658C35AFe4639DdF8005
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract NFTMarketplace on Etherscan.
+https://testnet.bscscan.com/address/0x89E99a15B67E0BACc8dB658C35AFe4639DdF8005#code
+
+
+
+///9/03///////PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/NFT Collection.sol
+
+
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/NFT marketplaceSell.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.11;"
+--> contracts/ERC1155.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.11;"
+--> contracts/ERC2O.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.11;"
+--> contracts/INoyz.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.11;"
+--> contracts/NFT Collection.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.11;"
+--> contracts/NFT marketplaceSell.sol
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.11;"
+
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.11;"
+--> contracts/nft Rolites.sol
+
+
+Compiled 22 Solidity files successfully
+HardhatError: HH700: Artifact for contract "GLDToken" not found.
+    at Artifacts._handleWrongArtifactForContractName (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:702:11)
+    at Artifacts._getArtifactPathFromFiles (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:827:19)
+    at Artifacts._getArtifactPath (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:507:21)
+    at Artifacts.readArtifact (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\hardhat\src\internal\artifacts.ts:71:26)
+    at getContractFactory (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@nomiclabs\hardhat-ethers\src\internal\helpers.ts:99:22)
+    at main (C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts\deploy.js:18:25)
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+    at Logger.makeError (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@ethersproject\logger\src.ts\index.ts:269:28)
+    at Logger.throwError (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@ethersproject\logger\src.ts\index.ts:281:20)
+    at ContractFactory.getDeployTransaction (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@ethersproject\contracts\src.ts\index.ts:1216:16)
+    at ContractFactory.<anonymous> (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@ethersproject\contracts\src.ts\index.ts:1244:53)
+    at step (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@ethersproject\contracts\lib\index.js:48:23)
+    at Object.next (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@ethersproject\contracts\lib\index.js:29:53)
+    at fulfilled (C:\Users\DELL\Desktop\Dapp project\Hardproject\node_modules\@ethersproject\contracts\lib\index.js:20:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  reason: 'too many arguments:  in Contract constructor',
+  code: 'UNEXPECTED_ARGUMENT',
+  count: 1,
+  expectedCount: 0
+}
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat run --network bsctestnet deploy.js
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Rooted Token deployed to: 0x99907517F78ba6d61C335e2489bcB8cEd5A74A81
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat verify --network bsctestnet 0x99907517F78ba6d61C335e2489bcB8cEd5A74A81    
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Nothing to compile
+Successfully submitted source code for contract
+contracts/NFTMarket.sol:NFTMarket at 0x99907517F78ba6d61C335e2489bcB8cEd5A74A81
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract NFTMarket on Etherscan.
+https://testnet.bscscan.com/address/0x99907517F78ba6d61C335e2489bcB8cEd5A74A81#code
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> 
+
+
+
+/// 19/03/2023////
+Compiled 1 Solidity file successfully
+Rooted Token deployed to: 0xa49335138504cb6fE2Be03Aeb48F222FD947A6Bb
+PS C:\Users\DELL\Desktop\Dapp project\Hardproject\scripts> npx hardhat verify --network bsctestnet 0xa49335138504cb6fE2Be03Aeb48F222FD947A6Bb
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Nothing to compile
+Successfully submitted source code for contract
+contracts/mint.sol:MyNFT at 0xa49335138504cb6fE2Be03Aeb48F222FD947A6Bb
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract MyNFT on Etherscan.
+https://testnet.bscscan.com/address/0xa49335138504cb6fE2Be03Aeb48F222FD947A6Bb#code
