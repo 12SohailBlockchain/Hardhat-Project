@@ -1,8 +1,8 @@
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan");
 
-var INFURA_KEY = "464cd65da94c48ad847f8248e7a8ff61";
-const mnemonic = "common choose choose ticket switch hungry year series length analyst trophy library";
+var INFURA_KEY = "YOUR INFURE KEY HERE";
+const mnemonic = "YOUR WALLET MNEMONIC";
 
 module.exports = {
   defaultNetwork: "bsctestnet",
@@ -25,7 +25,7 @@ module.exports = {
   etherscan: {
     // Your API key for BSCscan
     // Obtain one at https://bscscan.com/
-    apiKey: "TQ3ISSVF7J2UWFTIE93D67MVETJ86WZDMS"
+    apiKey: "YOUR EHERSCAN API KEY HERE"
   },
   solidity: {
     compilers: [
